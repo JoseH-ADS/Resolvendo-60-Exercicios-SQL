@@ -1,0 +1,3 @@
+select c.nome, format(avg(m.valor), 2) as 'valor médio' from curso c join matricula m
+on codigo = curso
+group by c.nome;
