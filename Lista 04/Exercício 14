@@ -1,0 +1,5 @@
+select a.nome, c.nome, c.inicio, m.data_matricula from curso c join matricula m
+on codigo = curso
+join aluno a
+on a.ra = m.ra
+where m.data_matricula < c.inicio;
