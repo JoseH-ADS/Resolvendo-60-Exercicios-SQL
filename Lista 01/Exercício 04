@@ -1,0 +1,7 @@
+create table Itens (
+Produto_Codigo_Produto integer,
+Nota_Fiscal_Numero_NF integer,
+Num_Item integer,
+Qtde_Item integer,
+primary key(Nota_Fiscal_Numero_NF, Produto_Codigo_Produto)
+);
