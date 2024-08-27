@@ -1,0 +1,3 @@
+update associado
+set plano = 'E3'
+where nome = 'PEDRO JOSE DE OLIVEIRA';
