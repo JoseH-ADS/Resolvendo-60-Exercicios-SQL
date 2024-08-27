@@ -1,0 +1,2 @@
+select * from associado
+where plano like 'b%' or plano like 'm%';
