@@ -1,0 +1,4 @@
+delete from associado
+where cidade = 'santo andre'
+limit 4;
+-- Eu usei o limit porque estou usando o safe update mode do MySQL Workbench
