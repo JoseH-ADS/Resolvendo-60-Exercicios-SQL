@@ -1,0 +1,2 @@
+select * from curso
+where ch = 60;
