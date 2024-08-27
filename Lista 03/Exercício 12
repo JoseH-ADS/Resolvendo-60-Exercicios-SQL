@@ -1,0 +1,3 @@
+select a.nome, p.valor from associado a join plano p
+on plano = numero
+where plano in ('b1', 'e1', 'm1');
