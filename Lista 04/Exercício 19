@@ -1,0 +1,1 @@
+select curso.nome, period_diff(date_format(curso.termino, '%y%m'), date_format(curso.inicio, '%y%m')) as duracao_curso from curso;
