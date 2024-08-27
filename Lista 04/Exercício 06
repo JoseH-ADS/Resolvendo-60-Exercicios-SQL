@@ -1,0 +1,5 @@
+select c.nome, sum(m.valor) as valor_total_por_curso from curso c left join matricula m
+on curso = codigo
+group by 1;
+
+select sum(valor) as valor_total from matricula;
