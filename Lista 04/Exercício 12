@@ -1,0 +1,3 @@
+select c.nome, m.data_matricula from curso c join matricula m
+on curso = codigo
+where data_matricula like '2008-01%';
