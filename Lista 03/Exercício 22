@@ -1,0 +1,3 @@
+select a.nome, a.plano, p.descricao, p.valor from associado a join plano p
+on plano = numero
+where a.nome like '%amaral%';
