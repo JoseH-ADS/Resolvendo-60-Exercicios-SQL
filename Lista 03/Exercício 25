@@ -1,0 +1,2 @@
+select nome from associado
+where cep like '09%';
