@@ -1,0 +1,2 @@
+select nome, banco, valor, vencimento from duplicata
+order by vencimento;
