@@ -1,0 +1,3 @@
+select c.nome, count(m.ra) as n°_alunos from curso c join matricula m
+on c.codigo = m.curso
+group by c.nome;
