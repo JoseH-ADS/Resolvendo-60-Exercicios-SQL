@@ -1,0 +1,2 @@
+select a.nome, a.plano, p.descricao from associado a join plano p
+on plano = numero;
