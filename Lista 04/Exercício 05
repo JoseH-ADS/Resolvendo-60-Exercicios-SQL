@@ -1,0 +1,2 @@
+select c.nome, m.valor from curso c join matricula m
+on codigo = curso;
