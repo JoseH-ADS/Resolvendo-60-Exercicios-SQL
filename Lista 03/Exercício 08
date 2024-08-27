@@ -1,0 +1,3 @@
+select * from associado a join plano p
+on plano = numero
+where nome like '%silva%';
