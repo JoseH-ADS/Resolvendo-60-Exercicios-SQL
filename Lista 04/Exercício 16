@@ -1,0 +1,3 @@
+select a.nome from matricula m join aluno a
+on a.ra = m.ra
+where dayname(m.data_matricula) = 'saturday';
