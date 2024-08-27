@@ -1,0 +1,2 @@
+select count(*) as N°_Associados from associado
+where plano = 'e3';
