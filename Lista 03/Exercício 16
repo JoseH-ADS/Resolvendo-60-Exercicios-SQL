@@ -1,0 +1,4 @@
+select a.nome, a.plano, p.valor from associado a join plano p
+on plano = numero
+where a.cidade = 'sao paulo' and p.numero in ('m2', 'm3')
+order by a.nome;
