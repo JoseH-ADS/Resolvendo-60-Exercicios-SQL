@@ -1,0 +1,5 @@
+select * from duplicata
+where nome = 'papelaria silva';
+
+select format(sum(valor), 2) as Valor_Divida from duplicata
+where nome = 'papelaria silva';
