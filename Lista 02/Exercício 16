@@ -1,0 +1,4 @@
+select nome, CONCAT('R$ ', FORMAT(SUM(VALOR),2)) as valor_vencido, DATE_FORMAT(Vencimento, '%d/%m/%Y') as Vencimento,
+DATEDIFF(CURDATE(), Vencimento) AS qtd_dias_vencido, FORMAT(SUM(Valor * 1.05),2) as valor_com_multa from duplicata
+where nome = 'ler e saber' and MONTH(Vencimento) >= 01 and MONTH(Vencimento) <= 05 and YEAR(Vencimento) = 2017
+group by vencimento;
