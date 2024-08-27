@@ -1,0 +1,2 @@
+select * from duplicata
+where valor > 10000;
