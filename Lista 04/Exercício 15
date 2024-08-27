@@ -1,0 +1,2 @@
+select nome as curso, inicio as data_inicio from curso
+where DATEDIFF(inicio, current_date()) > 0;
