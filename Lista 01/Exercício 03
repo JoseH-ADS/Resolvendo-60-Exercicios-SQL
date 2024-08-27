@@ -1,0 +1,5 @@
+create table Nota_fiscal (
+Numero_NF integer primary key,
+Data_NF date,
+Valor_NF float
+);
