@@ -1,0 +1,2 @@
+select format(avg(valor), 2) as Media_Valor from duplicata
+where year(vencimento) = '2016';
