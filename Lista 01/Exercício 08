@@ -1,2 +1,5 @@
 alter table Itens
 drop primary key;
+
+alter table Itens
+add primary key(Num_item);
