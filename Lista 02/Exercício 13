@@ -1,0 +1,3 @@
+select sum(valor) from duplicata
+where vencimento between '2016-08-01' and '2016-08-30';
+-- Não tem nada a receber;
