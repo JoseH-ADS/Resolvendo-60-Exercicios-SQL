@@ -1,0 +1,5 @@
+create table produto (
+Codigo_Produto integer primary key,
+Descricao_Produto varchar(30),
+Preco_Produto float
+);
