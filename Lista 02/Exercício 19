@@ -1,0 +1,2 @@
+select format(sum(valor), 2) as ValorTotal from duplicata
+where banco = 'santander';
