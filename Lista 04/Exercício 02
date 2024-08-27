@@ -1,0 +1,5 @@
+select a.nome, c.nome from aluno a join matricula m
+on a.ra = m.ra
+join curso c
+on c.codigo = m.curso
+order by c.nome;
