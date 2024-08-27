@@ -1,0 +1,4 @@
+select c.nome, count(*) as qtd_alunos from matricula m join curso c
+on codigo = curso
+group by 1
+having qtd_alunos >=2;
