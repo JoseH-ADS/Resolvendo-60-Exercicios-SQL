@@ -1,0 +1,2 @@
+delete from duplicata
+where numero = '770710';
