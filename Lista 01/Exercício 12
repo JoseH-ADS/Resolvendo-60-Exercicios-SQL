@@ -1,0 +1,2 @@
+alter table Nota_fiscal
+drop Data_NF;
