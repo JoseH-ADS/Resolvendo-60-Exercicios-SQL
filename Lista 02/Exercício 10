@@ -1,0 +1,5 @@
+update duplicata
+set banco = 'SANTANDER'
+where banco = 'banco do brasil'
+limit 4;
+-- Usei o limit porque estou usando o safe update mode do MySQL Workbench
