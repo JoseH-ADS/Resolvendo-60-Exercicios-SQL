@@ -1,0 +1,2 @@
+select plano, nome from associado
+order by nome asc, plano desc;
