@@ -1,0 +1,3 @@
+select a.nome, a.plano, p.valor, a.cidade from associado a join plano p
+on plano = numero
+where a.cidade = 'barueri' and p.numero = 'm1';
