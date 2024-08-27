@@ -1,0 +1,3 @@
+select * from duplicata
+where nome = 'abc papelaria';
+-- Não existe itens na tabela duplicata.
