@@ -1,0 +1,2 @@
+alter table Nota_fiscal
+change Valor_NF ValorTotal_NF float;
