@@ -1,0 +1,2 @@
+select numero, vencimento, valor, banco from duplicata
+where banco != 'itau'and banco != 'santander';
