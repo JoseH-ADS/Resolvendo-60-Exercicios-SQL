@@ -1,0 +1,2 @@
+select distinct nome from duplicata
+where banco in ('santander', 'itau');
