@@ -1,0 +1,2 @@
+alter table Nota_fiscal
+add column ICMS float after Numero_NF;
