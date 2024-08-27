@@ -1,0 +1,3 @@
+select a.nome, p.descricao from associado a join plano p
+on plano = numero
+order by 1;
